@@ -1,0 +1,155 @@
+// Footer
+.futer-logo-span {
+    color: var(--slogan-text-color);
+}
+
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    background: var(--primary-bg-color);
+    color: var(--slogan-text-color);
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+}
+
+.footer-content {
+    padding-right: 70px;
+}
+
+.footer-list {
+    margin-top: 20px;
+}
+
+.footer-item:not(:last-child) {
+    padding-bottom: 9px;
+}
+
+.footer-link {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    font-style: normal;
+    color: var(--link-address-color);
+
+    transition: color var(--animation);
+
+        &:hover,
+        &:focus {
+            color: var(--accent-color);
+        }
+}
+
+
+.address {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--slogan-text-color);
+    text-decoration: none;
+    font-style: normal;
+}
+
+// розсилка
+.footer-sign {
+    margin-left: auto;
+}
+
+.footer-sign-text {
+    display: flex;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--slogan-text-color);
+}
+
+.form-sign {
+    display: flex;
+    width: 570px;
+    height: 86px;
+}
+
+.form-sign input {
+    margin-right: 12px;
+    padding-left: 30px;
+    width: 358px;
+    height: 50px;
+    color: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background: var(--primary-bg-color);
+    outline: transparent;
+}
+
+.button--icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icon-send {
+    margin-left: 10px;
+    fill: var(--slogan-text-color);
+}
+
+// іконки соціальних мереж footer
+.social-icons-title {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 0, 8;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.social-footer-list {
+    display: flex;
+    justify-content: center;
+}
+
+.social-footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 44px;
+    height: 44px;
+
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    
+    transition: fill var(--animation), background-color var(--animation);
+
+    &:hover,
+    &:focus {
+            background-color: var(--accent-color);
+            border-radius: 50%;
+        }
+
+}
+.social-footer-link:hover .social-networks__icon,
+.social-footer-link:focus .social-networks__icon {
+    fill: var(--slogan-text-color);
+}
+
+.social-footer-icon {
+    fill: var(--slogan-text-color);
+}
+
+.social-footer-item {
+
+    &:not(:last-child) {
+        margin-right: 10px;
+    } 
+  
+}

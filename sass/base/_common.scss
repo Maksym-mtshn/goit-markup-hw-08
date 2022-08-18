@@ -1,0 +1,12 @@
+
+body {
+    padding-top: 80px;
+    font-size: 14px;
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+
+    &.no-scroll {
+            overflow: hidden;
+        }
+}

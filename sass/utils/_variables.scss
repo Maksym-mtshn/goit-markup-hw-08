@@ -1,0 +1,20 @@
+ :root {
+     /* основна палітра кольорів */
+     --primary-text-color: #212121;
+     --title-text-color: #757575;
+     --accent-color: #2196f3;
+     --slogan-text-color: #ffffff;
+     --primary-bg-color: #2f303a;
+     --first-logo-color: #000000;
+     --btn-bgr-color: #f5f4fa;
+     --button-background-color: #188ce8;
+     --link-address-color: rgba(255, 255, 255, 0.6);
+     --icon-social-color: #afb1b8;
+
+     /* others */
+     --items: 3;
+     --indent: 30px;
+
+     /* animation */
+     --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ }

@@ -1,0 +1,50 @@
+// Партнери
+.companies-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.companies-list {
+    display: flex;
+    justify-content: center;
+}
+
+.companies-item {
+    height: 92px;
+    width: calc(100% / 6 - 30px);
+
+    border: 1px solid #afb1b8;
+
+    transition: border var(--animation);
+        
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
+    
+        &:hover,
+        &:focus {
+            border: 1px solid var(--accent-color);
+        }
+}
+
+
+.companies-item:hover .companies-icon,
+.companies-item:focus .companies-icon {
+    fill: var(--accent-color);
+}
+
+.companies-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.companies-icon {
+    align-items: center;
+
+    fill: #afb1b8;
+    transition: fill var(--animation);
+}

@@ -1,0 +1,41 @@
+// іконки соціальних мереж 
+.social-networks {
+    display: flex;
+    justify-content: center;
+    transition: fill var(--animation);
+}
+
+.social-networks__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 44px;
+    height: 44px;
+
+    transition: background-color var(--animation), border-radius var(--animation);
+
+        &:hover,
+        &:focus {
+            background-color: var(--accent-color);
+            border-radius: 50%;
+        }
+}
+
+
+.social-networks__link:hover .social-networks__icon,
+.social-networks__link:focus .social-networks__icon {
+    fill: var(--slogan-text-color);
+}
+
+.social-networks__icon {
+    fill: var(--icon-social-color);
+    transition: var(--animation);
+}
+
+.social-networks__item {
+    &:not(:last-child)
+    {
+        margin-right: 10px;
+    }
+}

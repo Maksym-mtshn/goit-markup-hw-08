@@ -1,0 +1,46 @@
+// section Наша команда 
+.team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background: var(--btn-bgr-color);
+}
+
+.team__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: calc(-1 * var(--indent) / 2);
+}
+
+.items-team {
+    flex-basis: calc((100% - var(--indent) * 4) / 4);
+    margin: calc(var(--indent) / 2);
+    background: var(--slogan-text-color);
+}
+
+.items-team__card {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.items-team__title {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.items-team__subtitle {
+    margin-bottom: 28px;
+
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--title-text-color);
+}
